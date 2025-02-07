@@ -1,0 +1,14 @@
+.about {
+    padding-bottom: 120px;
+
+    &__title {
+        padding-top: 120px;
+    }
+
+    &__subtitle {
+        font-style: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+    }
+}

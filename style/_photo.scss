@@ -1,0 +1,29 @@
+.photo {
+    background-color: #f6f6f6;
+    padding: 100px;
+
+    &__subtitle {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 29px;
+    }
+
+    &__picture {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__jupPhoto {
+        width: 250px;
+        height: 250px;
+        
+        transition: transform 1s ease;
+
+        &:hover {
+            transform: scale(1.5)
+        }
+    }
+}
